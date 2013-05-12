@@ -1,0 +1,27 @@
+{
+  "name": "CPU Meter",
+  "version": "1.0",
+  "description": "Shows the average CPU usage of your computer",
+  "homepage_url": "http://www.tricd.de",
+  
+  "background": {
+  	"scripts": ["app.js"]
+  },
+  
+  "manifest_version": 2,
+	
+  "icons": { 
+  	"16": "16.png" ,
+  	"48": "48.png",
+    "128": "128.png"
+	},
+	
+	"permissions": [
+    "experimental"  ],
+	
+  "browser_action": {
+    "default_icon": "16.png",
+	  
+    "default_title" : "eBay"
+  }
+}
