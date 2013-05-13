@@ -37,8 +37,8 @@ function drawCircleGraph(usage) {
  
   context.stroke();
   
-  //context.font = '7pt Arial';
-  //context.fillStyle = 'black';
+  context.font = '7pt Arial';
+  context.fillStyle = 'black';
   
   var u = Math.round(usage);
   
@@ -46,7 +46,7 @@ function drawCircleGraph(usage) {
   
   u = u+'';
   
-  //context.fillText(u, 5, 13);
+  context.fillText(u, 5, 13);
 
   var imageData = context.getImageData(0, 0, 19, 19);
   
